@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #7ab938;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(#7ab938,#145840);
+
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top:0;
+    font-size: 15px;
+    // background: #7ab938;
+    // opacity: 70%;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    margin-top: 5vh;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li {
+    display: flex;
+    margin: auto;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topnav-right{
+    float: right;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .topnav-right{
+        width:40%;
+    }
+    #home{
+        display: flex;
+    }
+    #home article{
+        margin-left: auto;
+        float: right;
+        width: 40%;
+    }
+    #home .cont-tit{
+        padding-top: 3rem;
+        text-align: center;
+        width: 100%;
+        scale: 1.15;
+    }
+    #home .cont-main{
+        margin: 0;
+
+    }
+
+    #home .logos{
+        margin: auto;
+        max-width: 60%;
+    }
+
+    #home{
+        max-height: 100vh;
+    }
+}
+
+#home{
+    min-height: 200vh;
+}
+
+.circle{
+    background: #ffffff;
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    transition: .75s ease-in-out;
+}
+
+
+
+#home img{
+    max-width: 22rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    transition: 2s ease-in-out;
+}
+
+#home .first:hover{
+    transform: rotate(180deg);
+    transition: 2s ease-in-out;
+}
+
+.cont-tit{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+#home p{
+    margin:0;
+    font-size: 35px;
+}
+#home h1{
+    margin:0;
+    font-size: 48px;
+}
+
+#home .earth{
+    font-size: 62px;
+}
+
+#home .engine{
+    font-size: 55px;
+}
+
+#home .logos{
+    text-align: center;
+}
+
+#home .second{
+    max-width: 80%;
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+}
